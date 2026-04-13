@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       /**{
+            margin: 0px;
+            padding: 0px;
+        
+        }
+        /*.container{
+           height: 100vh;
+            background-image: url(backgroud.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            
+        }*/
+        
+        
+         div{
+            display: grid;
+            width: 100%;
+            height: 100vh;
+            margin: auto;
+            background: linear-gradient(to right, rgb(195, 16, 105), rgb(188, 131, 25)) ;
+
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 90px 150px 300px 100px;
+            gap: 5px;
+            grid-template-areas: "my-menu my-menu my-menu"
+                                "header header header"
+                                "main-content-area main-content-area main-content-area "
+                                "footer footer footer"
+
+        }
+        nav{
+           grid-area: my-menu;
+            margin: auto;
+            padding: 10px;
+            width: 80%;
+            height: 30px;
+            
+        }
+        nav ol{
+            list-style: none;
+        }
+        nav li{
+            display: inline;
+            padding: 1px;
+            margin: 1px 8px;
+
+        }
+        nav li:hover{
+            background-color: rgb(195, 41, 107);
+        }
+        nav a{
+            width: 240px;
+            display: inline-block;
+            color: aliceblue;
+            text-decoration: solid;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        header{
+            grid-area: header;
+        margin: auto;
+        padding: 10px;
+        width: 80%;
+        height: 70%;
+
+        }
+        header h2{
+        
+       color: aliceblue;
+        text-decoration: none;
+      text-transform: uppercase;
+       text-align: center;
+
+        }
+
+        header p{
+            color: aliceblue;
+            font: italic;
+            text-align: center;
+        }
+
+        main{
+        grid-area: main-content-area ;
+            margin: auto;
+        padding:30px;
+        width: 90%;
+        height: 300px;
+
+        }
+
+        main img{
+        
+            height: 300px;
+            width: 20%;
+        }
+       
+        
+        main p{
+             display: inline-block;
+             color: aliceblue;
+            font: italic;
+            text-align: center;
+           
+            width: 70%;
+        }
+
+ 
+
+
+    </style>
+    
+</head>
+<body>
+    <div>
+    
+
+    
+    
+    <nav>
+        <ol>
+            <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+              <li><a href="#">Service</a></li>
+               <li><a href="#">Contact</a></li>
+    
+        </ol>
+    </nav>
+    <header>
+     <h2>
+        Welcome to Fifi Talks podcast
+     </h2>
+     <p>
+        A Christian-centered series where we dive into raw and unfiltered conversations about faith,
+         culture, and living as a Christian in today’s world. This podcast is all about keeping it 
+         real: no sugarcoating, just honest talk about what it truly means to follow Christ in this
+          generation.
+
+     </p>
+    </header>
+    <main>
+        <img src="main picture.jpg" alt="">
+         <p>
+In this video, we dive deep into one of the most important and often misunderstood topics in Christian
+ theology: the soul, the spirit, and the flesh. What do these terms mean? How do they interact? 
+ And how can understanding them help you walk more faithfully with Christ in daily life?
+
+You’ll learn:
+
+The biblical definitions of soul, spirit, and flesh
+The distinctions and overlap between the three
+How the flesh fights against the spirit (Romans themes, Galatians)
+How to discern the voice of the spirit vs the pull of flesh
+Practical steps to cultivate spiritual sensitivity, guard your inner life, and live in victory
+How this knowledge shapes your identity in Christ and empowers transformation
+
+If you’re passionate about knowing who you are inwardly and want to live from a place of spiritual
+ clarity, this video is for you. Don’t forget to like, subscribe, and share your insights: Which 
+ aspect (soul, spirit, or flesh) do you struggle with most?
+
+
+</p>
+
+        
+    </main>
+    <footer>
+  <p>My socials are:</p>
+    <ol>
+        <li><a href="">Kefiloe Miyane</a></li>
+         <li><a href="">Fifi Talks</a></li>
+          <li><a href="">fifi Talks</a></li>
+           
+
+    </ol>
+    </footer>
+    
+    </div>
+</body>
+</html>
